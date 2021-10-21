@@ -15,3 +15,10 @@ Simulate realistic LC-MS/MS data using the method described in https://arxiv.org
 
 ## AnalyzeSimulatedData
 Analyze the above simulated.
+
+# Reproduce simulation results
+To reproduce simulation results from https://arxiv.org/abs/2110.07818:
+1) Download the data from https://drive.google.com/file/d/1Iz6WSTIQV-8nj5qPIKyrGv7NkVTW5YI1/view?usp=sharing
+2) Unzip the folder and follow the instructions in Simulations.Rmd
+
+
