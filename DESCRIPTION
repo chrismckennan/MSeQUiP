@@ -1,0 +1,16 @@
+Package: MSeQUiP
+Title: Quantifying uncertainty in peptide-spectrum matches
+Version: 1.0
+Authors@R: 
+    person(given = "Chris",
+           family = "McKennan",
+           role = c("aut", "cre"),
+           email = "chm195@pitt.edu",
+           comment = c(ORCID = "0000-0003-2096-8257"))
+Imports: qvalue, mzR, statmod, rlist
+Description: This package implements the methodology described in https://arxiv.org/abs/2110.07818, which treats peptide-spectrum matching as a Bayesian model selection problem with an incomplete model space. This package can be used to analyze the simulated data in https://arxiv.org/abs/2110.07818, as well as analyze real LC-MS/MS data.
+License: MIT License
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
